@@ -25,3 +25,120 @@
 	float: right;
 	width: 72.5%;
 }
+
+/* Estilizando */
+
+#cv {
+	width: 800px;
+	margin: 0 auto;
+	background-color: #f3f3f3;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 1em;
+}
+/*********************************************/
+
+#cv .mainDetails #headshot img {
+	border-radius: 50%;
+	width: 90px;
+	margin: 30px 30px 10px 45px;
+}
+
+.mainDetails {
+	border-bottom: 2px solid #cf8a05;
+}
+
+.mainDetails #name {
+	line-height: 1;
+	padding: 10px 30px;
+}
+.mainDetails #name h1 {
+	font-family: 'Rokkitt';
+	font-weight: 700;
+	font-size: 2.4em;
+	margin-bottom: 0;
+	color: #444444;
+}
+
+.mainDetails #name h2 {
+	font-family: 'Rokkitt';
+	font-weight: 400;
+	font-size: 2em;
+	margin-top: 0;
+	color: #444444;
+}
+.mainDetails #contactDetails ul {
+	font-weight: 400;
+	padding-top: 20px;
+	margin-right: 40px;
+}
+
+.mainDetails #contactDetails ul li {
+	list-style: none;
+}
+
+.mainDetails #contactDetails ul li a {
+	text-decoration: none;
+	color: #181818;
+}
+/*********************************************/
+
+#mainArea {
+	margin: 0 45px;
+}
+
+#mainArea section {
+	padding: 5px 0px;
+	border-bottom: 1px solid #dedede;
+}
+
+#mainArea .sectionTitle {
+	font-family: 'Rokkitt';
+	font-style: italic;
+	font-weight: lighter;
+	font-size: 1.50rem;
+	color: #cf8a05;
+}
+
+#mainArea .sectionContent {
+	margin-top: 20px;
+}
+
+#mainArea .sectionContent h2 {
+	font-family: 'Rokkitt';
+	font-weight: 400;
+	font-size: 1.75em;
+	color: #444444;
+	margin: 0;
+}
+
+#mainArea .sectionContent .subDetails {
+	font-style: italic;
+	font-weight: 400;
+	font-size: 0.8em;
+	color: #444444;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#mainArea .sectionContent p {
+	font-weight: 400;
+	line-height: 1.25em;
+	margin-top: 0;
+	color: #181818;
+}
+
+#mainArea .sectionContent .keySkills {
+	list-style: none;
+	columns: 3;
+	color: #181818;
+	padding-left: 0;
+	margin-top: 0;
+}
+
